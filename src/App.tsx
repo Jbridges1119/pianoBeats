@@ -1,10 +1,13 @@
 import React from 'react';
+import {notes } from './helpers'
+import Octave from './Octave'
+
 
 
 function App() {
   return (
-    <div className="App">
-     Piano-man
+    <div>
+     <Octave notes={notes}/>
     </div>
   );
 }
