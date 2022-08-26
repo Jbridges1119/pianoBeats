@@ -9,8 +9,13 @@ type Props = {
 
 //Declare the functional component and the Props type from above
 const Octave: React.FC<Props> = ({notes}) => {
-  const note = notes.map((elemnt: NoteType) => (
-    <Note />
+  const note = notes.map((element: NoteType) => (
+    //Note desc - if color is white/black return White/Black(style) with note - black works opposite
+    <Note 
+    key={element.note}
+    color={element.color}
+    note={element.note}
+    />
   ))
 
 
