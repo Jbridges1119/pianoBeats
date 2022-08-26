@@ -6,7 +6,7 @@ https://github.com/Jbridges1119/pianoBeats/raw/master/Docs/Demo.mp4
 ## Available Scripts
 
 In the project directory, you can run:
-
+/home/jeff/projects/piano-bruh/Docs/Demo.mp4
 ### `npm start`
 
 Runs the app in the development mode.\
