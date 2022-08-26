@@ -6,13 +6,12 @@ export const Black = styled.button`
   background: black;
   border: solid black 1px;
   position: absolute;
-  z-index:10;
+  z-index: 10;
   margin: 1px;
   margin-left: -20px;
   :active {
     background: #333;
   }
-
 `;
 
 export const White = styled.button`
@@ -64,5 +63,3 @@ export const White = styled.button`
  }
  
 `;
-
-

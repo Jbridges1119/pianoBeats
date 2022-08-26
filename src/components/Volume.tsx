@@ -1,7 +1,6 @@
-import React from 'react'
-import {VolumeKnob, Indicator} from '../styles/Volume.style'
-import { VolumeWrapper } from '../styles/Octave.style'
-
+import React from "react";
+import { VolumeKnob, Indicator } from "../styles/Volume.style";
+import { VolumeWrapper } from "../styles/Octave.style";
 
 type Props = {
   raiseVolume: (e: React.MouseEvent<HTMLButtonElement>) => void;
@@ -9,14 +8,14 @@ type Props = {
   volume: number;
 };
 
-const Volume: React.FC<Props> = ({raiseVolume, lowerVolume, volume}) => {
+const Volume: React.FC<Props> = ({ raiseVolume, lowerVolume, volume }) => {
   return (
     <VolumeWrapper>
-    <VolumeKnob onClick={raiseVolume}>Volume Up</VolumeKnob>
-    <VolumeKnob onClick={lowerVolume}>Volume Down</VolumeKnob>
-    <Indicator>{Math.round(volume* 100)}%</Indicator>
+      <VolumeKnob onClick={raiseVolume}>Volume Up</VolumeKnob>
+      <VolumeKnob onClick={lowerVolume}>Volume Down</VolumeKnob>
+      <Indicator>{Math.round(volume * 100)}%</Indicator>
     </VolumeWrapper>
-  )
-}
+  );
+};
 
-export default Volume
+export default Volume;
