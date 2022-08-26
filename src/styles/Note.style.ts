@@ -1,5 +1,4 @@
-import styled from 'styled-components'
-
+import styled from "styled-components";
 
 export const Black = styled.button`
   width: 40px;
@@ -21,7 +20,7 @@ export const White = styled.button`
   border: solid black 1px;
   box-shadow: 2px 5px;
   margin: 1px;
-  margin-left: '-20px';
+  margin-left: "-20px";
   box-sizing: border-box;
   :active {
     background: #eee;
